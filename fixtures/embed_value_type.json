@@ -1,23 +1,23 @@
 {
-  "$schema": "http://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/invopop/jsonschema/embed-value-type-test",
-  "$ref": "#/$defs/EmbedValueTypeTest",
-  "$defs": {
-    "EmbedValueTypeTest": {
-      "properties": {
-        "CustomStringType": {
-          "type": "string"
-        },
-        "map_field": {
-          "type": "object"
-        }
-      },
-      "additionalProperties": false,
-      "type": "object",
-      "required": [
-        "CustomStringType",
-        "map_field"
-      ]
-    }
-  }
+	"$schema": "http://json-schema.org/draft/2020-12/schema",
+	"$id": "https://github.com/sbward/jsonschema/embed-value-type-test",
+	"$ref": "#/$defs/EmbedValueTypeTest",
+	"$defs": {
+		"EmbedValueTypeTest": {
+			"properties": {
+				"CustomStringType": {
+					"type": "string"
+				},
+				"map_field": {
+					"type": "object"
+				}
+			},
+			"additionalProperties": false,
+			"type": "object",
+			"required": [
+				"CustomStringType",
+				"map_field"
+			]
+		}
+	}
 }

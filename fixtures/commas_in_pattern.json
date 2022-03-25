@@ -1,5 +1,5 @@
-{ 
-  "$id": "https://github.com/invopop/jsonschema/pattern-test",
+{
+  "$id": "https://github.com/sbward/jsonschema/pattern-test",
   "$ref": "#/$defs/PatternTest",
   "$schema": "http://json-schema.org/draft/2020-12/schema",
   "$defs": {

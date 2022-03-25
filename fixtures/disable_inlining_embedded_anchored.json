@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/invopop/jsonschema/outer",
+  "$id": "https://github.com/sbward/jsonschema/outer",
   "$anchor": "Outer",
   "properties": {
     "Inner": {

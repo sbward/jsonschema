@@ -1,9 +1,9 @@
 # Go JSON Schema Reflection
 
-[![Lint](https://github.com/invopop/jsonschema/actions/workflows/lint.yaml/badge.svg)](https://github.com/invopop/jsonschema/actions/workflows/lint.yaml)
-[![Test Go](https://github.com/invopop/jsonschema/actions/workflows/test.yaml/badge.svg)](https://github.com/invopop/jsonschema/actions/workflows/test.yaml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/invopop/jsonschema)](https://goreportcard.com/report/github.com/invopop/jsonschema)
-[![GoDoc](https://godoc.org/github.com/invopop/jsonschema?status.svg)](https://godoc.org/github.com/invopop/jsonschema)
+[![Lint](https://github.com/sbward/jsonschema/actions/workflows/lint.yaml/badge.svg)](https://github.com/sbward/jsonschema/actions/workflows/lint.yaml)
+[![Test Go](https://github.com/sbward/jsonschema/actions/workflows/test.yaml/badge.svg)](https://github.com/sbward/jsonschema/actions/workflows/test.yaml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/sbward/jsonschema)](https://goreportcard.com/report/github.com/sbward/jsonschema)
+[![GoDoc](https://godoc.org/github.com/sbward/jsonschema?status.svg)](https://godoc.org/github.com/sbward/jsonschema)
 ![Latest Tag](https://img.shields.io/github/v/tag/invopop/jsonschema)
 
 This package can be used to generate [JSON Schemas](http://json-schema.org/latest/json-schema-validation.html) from Go types through reflection.
@@ -256,7 +256,7 @@ To get the comments provided into your JSON schema, use a regular `Reflector` an
 
 ```go
 r := new(Reflector)
-if err := r.AddGoComments("github.com/invopop/jsonschema", "./"); err != nil {
+if err := r.AddGoComments("github.com/sbward/jsonschema", "./"); err != nil {
   // deal with error
 }
 s := r.Reflect(&User{})

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/invopop/jsonschema/test-user",
+  "$id": "https://github.com/sbward/jsonschema/test-user",
   "properties": {
     "some_base_property": {
       "type": "integer"

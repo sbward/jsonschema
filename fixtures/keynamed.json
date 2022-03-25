@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/invopop/jsonschema/key-named",
+  "$id": "https://github.com/sbward/jsonschema/key-named",
   "$ref": "#/$defs/KeyNamed",
   "$defs": {
     "KeyNamed": {

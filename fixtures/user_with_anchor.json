@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/invopop/jsonschema/user-with-anchor",
+  "$id": "https://github.com/sbward/jsonschema/user-with-anchor",
   "$ref": "#/$defs/UserWithAnchor",
   "$defs": {
     "UserWithAnchor": {
